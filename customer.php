@@ -36,7 +36,7 @@ require 'cek.php';
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link collapsed" href="item.php" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="index.php" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-clipboard"></i></div>
                                 Items
                             </a>
@@ -62,24 +62,28 @@ require 'cek.php';
             <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid">
-                        <h1 class="mt-4">Pelanggan</h1>
+                        <h1 class="mt-4">Customer</h1>
                         
                         <div class="card mb-4">
                             <div class="card-header">
-                                <i class="fas fa-table mr-1"></i>
-                                DataTable Example
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                                    Add New Customer
+                                </button>
                             </div>
                             <div class="card-body">
                                 <div class="table-responsive">
                                     <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
-                                                <th>Position</th>
-                                                <th>Office</th>
-                                                <th>Age</th>
-                                                <th>Start date</th>
-                                                <th>Salary</th>
+                                                <th>No.</th>
+                                                <th>Nama Customer</th>
+                                                <th>Contact</th>
+                                                <th>Email</th>
+                                                <th>Alamat</th>
+                                                <th>Diskon</th>
+                                                <th>Tipe Diskon</th>
+                                                <th>KTP</th>
                                             </tr>
                                         </thead>
                                         <tfoot>

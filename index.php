@@ -18,7 +18,7 @@ require 'cek.php';
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.php">Linda's Store</a>
+            <a class="navbar-brand" href="index.php">Dashboard - Linda's Store</a>
             <button class="btn btn-link btn-sm order-1 order-lg-0" id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button>
             <!-- Navbar Search-->
             <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
@@ -36,7 +36,7 @@ require 'cek.php';
                 <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
                     <div class="sb-sidenav-menu">
                         <div class="nav">
-                            <a class="nav-link collapsed" href="item.php" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <a class="nav-link collapsed" href="index.php" data-toggle="collapse" data-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-clipboard"></i></div>
                                 Items
                             </a>
@@ -166,7 +166,7 @@ require 'cek.php';
                 <!-- Modal footer -->
                 <div class="modal-footer">
                     <button type="submit" class="btn btn-primary" name="addnewitem">Save</button>
-                    <button type="reset" class="btn btn-danger" name="resetnewitem">Cancel</button>
+                    <button type="reset" class="btn btn-danger" name="resetnewitem">Reset</button>
                 </div>
 
             </div>
